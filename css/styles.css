@@ -1,0 +1,169 @@
+/* Start of main styling */
+body {
+    margin: 1%;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: black;
+    color: azure;
+    font-family: 'Vollkorn';
+}
+/* End of main styling */
+
+/* Start of header */
+.header{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 60px 0 0 0;
+}
+
+.baby{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+.hello{
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.para_1{
+    line-height: 1.3;
+    font-size: 2.13rem;
+    padding: 0 75px;
+    margin-bottom: 60px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: grey;
+}
+/* End of header */
+
+
+/* Start of section one */
+.title_1{
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container_1{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 30px;
+    height: 800px;
+}
+
+.container_1 > div{
+    display: grid;
+    grid-gap: 5px;
+    margin-left: 100px;
+    width: 400px;
+}
+
+.pic_1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_2 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_3 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_4 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_5 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_6 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_7 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_8 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pic_9 img{
+    width: 400px;
+    height: 300px;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.heading_2{
+    color: #ff3;
+}
+/* End of section one */
+
+/* Start of section two */
+
+.title_2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container_2{
+    position: relative;
+    top: 800px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 640px);
+    height: 800px;
+}
+
+.container_2 > div{
+    display: grid;
+    position: relative;
+    grid-gap: 30px;
+    margin-left: 110px;
+    width: 640px;
+}
+
+.ph2{
+    position: relative;
+    right: 30px;
+}
+
+.ph3 > img{
+    width: 1255px;
+}
+
+.ph4{
+    position: relative;
+    top:865px;
+    right: 30px;
+}
