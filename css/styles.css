@@ -1,4 +1,4 @@
-/* Start of main styling */
+/* Start of general styling */
 body {
     margin: 1%;
     padding: 0;
@@ -9,7 +9,14 @@ body {
     color: azure;
     font-family: 'Vollkorn';
 }
-/* End of main styling */
+
+hr{
+    position: relative;
+    right: 10px;
+    width: 85%;
+}
+
+/* End of general styling */
 
 /* Start of header */
 .header{
@@ -37,18 +44,26 @@ body {
     margin-bottom: 60px;
 }
 
-.yellow{
-    color: yellow;
+.yellow {
+    color:#ff3;
+    text-decoration: none;
 }
 
-a:link {
-    color: yellow;
+a {
+    text-decoration: none;
+    color:#ff3;
 }
+
 a:visited {
-    color: yellow;
+    color: #ff3;
 }
 a:hover {
     color: grey;
+}
+
+.line1{
+    position: relative;
+    bottom: 7px;
 }
 /* End of header */
 
@@ -75,47 +90,47 @@ a:hover {
     width: 400px;
 }
 
-.pic_1 img{
+.picture_1 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_2 img{
+.picture_2 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_3 img{
+.picture_3 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_4 img{
+.picture_4 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_5 img{
+.picture_5 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_6 img{
+.picture_6 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_7 img{
+.picture_7 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_8 img{
+.picture_8 img{
     width: 400px;
     height: 300px;
 }
 
-.pic_9 img{
+.picture_9 img{
     width: 400px;
     height: 300px;
 }
@@ -127,18 +142,30 @@ img:hover{
 .heading_2{
     color: #ff3;
 }
+
+.heading_2:hover{
+    color: grey;
+}
+
+.heading_2:after{
+    opacity: 0.9;
+}
+
+
 /* End of section one */
 
 /* Start of section two */
 
 .title_2{
+    position: relative;
     font-size: 50px;
     text-align: center;
+    top: 700px;
 }
 
 .container_2{
     position: relative;
-    top: 800px;
+    top: 700px;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(2, 640px);
@@ -153,17 +180,23 @@ img:hover{
     width: 640px;
 }
 
-.ph2{
+.photo2{
     position: relative;
     right: 30px;
 }
 
-.ph3 > img{
+.photo3 > img{
     width: 1255px;
 }
 
-.ph4{
+.photo4{
     position: relative;
     top:865px;
     right: 30px;
 }
+
+/* End of section two */
+
+/* Start of section three */
+
+/* End of section three */
