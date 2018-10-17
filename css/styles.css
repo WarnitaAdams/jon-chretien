@@ -156,8 +156,13 @@ img:hover{
 
 /* End of section two */
 
-/* Start of section three */
+.line2{
+    position: relative;
+    top: 30px;
+}
 
+
+/* Start of section three */
 
 .title_3{
     font-size: 50px;
