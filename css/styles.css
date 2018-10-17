@@ -21,7 +21,8 @@ body {
 /* Start of main container */
 .main_container{
     margin: 0 auto;
-    width: 1300px;
+    max-width: 1240px;
+    width: 95%;
     /* padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px; */
@@ -45,6 +46,7 @@ body {
 .hello{
     margin-left: 30px;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .para_1{
@@ -73,7 +75,7 @@ a:hover {
 
 .line1{
     position: relative;
-    bottom: 7px;
+    bottom: 8px;
 }
 /* End of header */
 
@@ -115,7 +117,7 @@ img:hover{
 }
 
 .heading_2:after{
-    opacity: 0.9;
+        : 0.9;
 }
 
 
@@ -243,8 +245,6 @@ footer{
 /* Start responsive */
 @media screen and (max-width: 480px) {
 
-
-
     ul{
         display: block;
     }
@@ -286,6 +286,7 @@ footer{
     .photo3 {
         grid-column-start: 1;
         grid-column-end: 2;
+        grid-row: span 1;
     }
 
     .container_3{
@@ -331,4 +332,14 @@ footer{
         max-width: 100% !important;
         height: 100% !important;
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container_1{
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
